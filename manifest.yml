@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Iot-coursera1-exogend
+  host: Iot-coursera1-exogend
+  disk_quota: 1024M
+  services:
+  - Iot-coursera1-exogend-cloudantNoSQLDB
+  - Iot-coursera1-exogend-iotf-service
