@@ -7,5 +7,7 @@ applications:
   host: Iot-coursera1-exogend
   disk_quota: 1024M
   services:
-  - Iot-coursera1-exogend-cloudantNoSQLDB
-  - Iot-coursera1-exogend-iotf-service
+  #- Iot-coursera1-exogend-cloudantNoSQLDB
+  #- Iot-coursera1-exogend-iotf-service
+  -rasp-iot-exogend-app1-cloudantNoSQLDB
+  -rasp-iot-exogend-app1-iotf-service
